@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Players</title>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Russo+One|Stalinist+One|Yeseva+One" rel="stylesheet"> -->
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="css/index.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+  </head>
+
+  <body>
+
+    <nav id="nav"class="navbar navbar-default navbar-expand-sm ">
+      <a class="navbar-brand"href="index.html">
+        <img src="./images/worldcup_2018_logo.png" alt="Logo" style="height:40px;">
+      </a>
+      <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="player.html">Players</a>
+          </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="matches.html">Matches</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="photos.html">Photos</a>
+        </li>
+
+
+      </ul>
+      <form>
+        <input type="text">
+        <button type="submit">Search</button>
+      </form>
+
+
+    </nav>
+
+    <header class="jumbotron">
+      <div class="player_bg">
+
+        <button><i class="fas fa-chevron-left"></i></button>
+        <button><i class="fas fa-chevron-right"></i></button>
+        <h1 class="title_name"></h1>
+        <div class="player_bg_front"></div>
+        <div class="player"></div>
+
+
+      </div>
+
+
+    </header>
+
+    <section>
+        <div class="row">
+          <div class="col-md-9 col-xs-12">
+            <h2>NEWS</h2>
+              <div class="container">
+                <div class="row first_news_row">
+                  <div class="col-md-12">
+                    <div class="news_box">
+                      <h2 class="news1_title"></h2>
+                      <span class="badge badge-secondary" >2018 FIFA WORLD CUP™</span>
+                      <button>Read more <i class="far fa-arrow-alt-circle-right"></i></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 news_2">
+                    <div class="news_box_sm">
+                      <h4 class="news2_title"></h4>
+                      <span class="badge badge-secondary" >2018 FIFA WORLD CUP™</span>
+                      <button>More <i class="far fa-arrow-alt-circle-right"></i></button>
+                    </div>
+                  </div>
+                  <div class="col-md-6 news_3">
+                    <div class="news_box_sm">
+                      <h4 class="news3_title"></h4>
+                      <span class="badge badge-secondary" >2018 FIFA WORLD CUP™</span>
+                      <button>More <i class="far fa-arrow-alt-circle-right"></i></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="row second_news_row">
+                  <div class="col-md-6 news_4">
+                    <div class="news_box_sm">
+                      <h4 class="news4_title"></h4>
+                      <span class="badge badge-secondary" >2018 FIFA WORLD CUP™</span>
+                      <button>More <i class="far fa-arrow-alt-circle-right"></i></button>
+                    </div>
+                  </div>
+                  <div class="col-md-6 news_5">
+                    <div class="news_box_sm">
+                      <h4 class="news5_title"></h4>
+                      <span class="badge badge-secondary" >2018 FIFA WORLD CUP™</span>
+                      <button>More <i class="far fa-arrow-alt-circle-right"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+          <div class="col-md-3 col-xs-12 ">
+            <h3 class="profile_name"></h3>
+            <img class="profile" src="" alt="">
+            <ul>
+              <li>Age:<span class="age"></span></li>
+              <li>Birth:<span class="birth"></span></li>
+              <li>Height:<span class="pheight"></span></li>
+              <li>International Caps:<span class="goal"></span></li>
+              <li>Position:<span class="pos"></span></li>
+            </ul>
+
+          </div>
+        </div>
+
+
+
+        <a class="backtoTop" href="#nav">
+          <i class="fas fa-angle-double-up"></i><br>
+
+          T<br>
+          o<br>
+          p<br>
+
+        </a>
+
+    </section>
+
+
+    <footer>
+
+      Copyright ©1994 - 2019 FIFA. All rights reserved
+      <span>
+        <i class="fab fa-vk"></i>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </span>
+
+
+    </footer>
+  </body>

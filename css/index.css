@@ -1,0 +1,552 @@
+.{
+  margin: 0;
+  padding: 0;
+}
+
+/* font-family: 'Russo One', sans-serif;
+font-family: 'Yeseva One', cursive;
+font-family: 'Stalinist One', cursive; */
+
+
+html,body{
+  width: 100%;
+  height: 100%;
+  background-color: #273043;
+  font-family: 'Yeseva One', cursive;
+  color:#2D2A32;
+}
+
+
+nav{
+ background-color: rgba(0,0,0,0.5);
+ position: absolute;
+ z-index: 3
+}
+
+
+nav>ul>li{
+  margin-right: 20px;
+
+}
+
+
+nav>ul>li:nth-child(3){
+  margin-right: 550px;
+}
+
+nav>ul>li>a{
+  color: white;
+}
+
+nav>ul>li>a:hover{
+  color: white;
+}
+
+nav form input{
+  margin-right: -5px;
+  background: #E8E8E8;
+  padding: 0px 5px;
+  border:none;
+  height:30px;
+  outline:none;
+  line-height: 30px;
+  color: #2D2A32;
+}
+
+nav form>button{
+  height:30px;
+  background-color: #273043;
+  border: none;
+  color:#e8e8e8
+}
+
+.dropdown-item:focus{
+  background-color: #c40000;
+}
+
+.player_bg{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  background-size:cover;
+}
+
+.player_bg_front{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index:2;
+  background-size: 100%
+}
+
+.player{
+  width:100%;
+  height:100%;
+  position: absolute;
+  background: url("../images/player1/player1.png") center center ;
+  background-size: cover;
+}
+
+.player_bg > button{
+  color: white;
+  background-color: rgba(0,0,0,0);
+  border: none;
+  font-size: 36px;
+  position: absolute;
+  z-index: 3;
+  text-shadow: 3px 2px 3px #2D2A32;
+}
+
+.player_bg button:nth-child(1){
+  top:300px;
+  left: 0px;
+}
+
+.player_bg button:nth-child(2){
+  top:300px;
+  right: 0px;
+}
+
+.player_bg h1{
+  font-family: 'Stalinist One', cursive;
+  position: absolute;
+  top: 450px;
+  right: 50px;
+  color: white;
+  z-index: 3;
+  text-shadow: 4px 3px 4px #2D2A32;
+}
+
+.jumbotron{
+  overflow: hidden;
+  height: 545px;
+  margin: 0;
+  padding: 0;
+}
+
+section{
+  width: 98.8%;
+}
+
+section .col-md-3{
+  padding: 0;
+  background-color: #273043;
+  color: #E8E8E8;
+  text-align: center;
+}
+
+section .col-md-3 h3{
+  font-family: 'Yeseva One', cursive;
+  margin: 50px 0 25px 0;
+}
+
+section .col-md-3 img{
+  width: 150px;
+  margin: 0 auto;
+}
+
+section .col-md-3 ul{
+  padding: 0;
+}
+
+section .col-md-3 li{
+  font-family: 'Russo One', sans-serif;;
+  list-style: none;
+  margin-top: 30px;
+}
+
+section .col-md-3 li>span{
+  color: #EDB25A;
+  display: block;
+  font-size: 24px;
+}
+
+section .col-md-9{
+  background-color: #DAD2D8;
+  color: #2D2A32;
+}
+
+section >.row > .col-md-9>h2{
+  font-family: 'Russo One', sans-serif;
+  color: #C40000;
+  margin: 25px 15px;
+}
+
+section >.row > .col-md-9{
+  padding: 20px 20px;
+}
+
+section >.row > .col-md-9 > .container > .row{
+  margin: auto auto;
+
+}
+
+section >.row > .col-md-9 > .container > .row > .col-md-12{
+  padding: 0;
+}
+
+.col-md-12 .news_box{
+  width: 100%;
+  height: 450px;
+  position: relative;
+}
+
+.news_box  > h2{
+  position: absolute;
+  padding:3px 14px;
+  bottom: 60px;
+  color: #E8E8E8;
+  font-family: 'Russo One', sans-serif;
+  text-shadow: 3px 2px 3px #2D2A32;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.news_box >  .badge-secondary{
+  background-color: #C40000;
+  position: absolute;
+  bottom:45px;
+  left:15px;
+  color: #E8E8E8;
+  font-family: 'Yeseva One', cursive;
+  -webkit-column-rule: ;
+  column-rule: ;
+}
+
+.news_box > button{
+  position: absolute;
+  width: 170px;
+  height: 30px;
+  background-color: #E8E8E8;
+  border: none;
+  color:#2D2A32;
+  right: 0px;
+  bottom: 0px;
+}
+
+section .col-md-6{
+  margin-top: 10px;
+  padding: 0;
+  display: flex;
+}
+
+section .col-md-6:nth-child(1){
+  height: 200px;
+  background-size: 100%;
+  position: relative;
+}
+
+section .col-md-6:nth-child(2){
+  height: 200px;
+  background-size: 100%;
+  position: relative;
+}
+
+section .second_news_row_2 .col-md-6:nth-child(1){
+  height: 200px;
+  background-size: 100%;
+  position: relative;
+}
+
+section .second_news_row_2 .col-md-6:nth-child(2){
+  height: 200px;
+  background-size: 100%;
+  position: relative;
+}
+
+.news_box_sm > h4{
+  position: absolute;
+  padding:3px 14px;
+  bottom: 22px;
+  color: #E8E8E8;
+  font-family: 'Russo One', sans-serif;
+  text-shadow: 3px 2px 3px #2D2A32;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.news_box_sm > .badge-secondary{
+  background-color: #C40000;
+  position: absolute;
+  bottom: 5px;
+  left:15px;
+  font-family: 'Yeseva One', cursive;
+}
+
+.news_box_sm > button{
+  position: absolute;
+  bottom: 0px;
+  right:0;
+  background-color: #E8E8E8;
+  border: none;
+}
+
+footer{
+  height:70px;
+  color: #2D2A32;
+  background-color: #EDB25A;
+  line-height: 70px;
+  text-align: center;
+}
+
+footer > span{
+  float: right;
+  margin-right: 50px;
+}
+
+footer > span > .fab{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  line-height: 30px;
+  font-size: 20px;
+  border: 1px solid #2D2A32;
+  border-radius: 50%;
+}
+
+footer>span>.fab:hover{
+  background-color: #e8e8e8;
+  border: 1px solid #e8e8e8;
+}
+
+.backtoTop{
+  position: fixed;
+  bottom: 50px;
+  right:0px;
+  width: 30px;
+  height: 90px;
+  background: #E8E8E8;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  color:#2D2A32;
+  text-align: center;
+  line-height: 20px;
+  display: none;
+}
+
+.backtoTop:hover{
+  text-decoration: none;
+  color:#2D2A32;
+}
+
+
+
+
+.HomePage{
+  width: 100%;
+  height: 100%;
+  background:url("../images/RusTeam.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.HomePage button{
+  position: absolute;
+  font-size: 28px;
+  line-height: 45px;
+  width: 173px;
+  height:45px;
+  left: 300px;
+  top:400px;
+  border: 2px solid #e8e8e8;
+  background-color: rgba(0,0,0,0);
+  box-sizing: border-box;
+}
+
+.HomePage button a{
+  color: white;
+}
+
+.HomePage button:hover{
+  border: none;
+  background-color: white;
+}
+.HomePage button a:hover{
+  font-size: 28px;
+  text-decoration: none;
+  color:#c40000;
+}
+
+
+
+/* HomePage */
+.HomePage h2{
+  font-size: 24px;
+  color: white;
+  position:absolute;
+  left: 183px;
+  bottom: 300px
+}
+
+.HomePage > footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.HomePage > footer> p{
+  float: left;
+  margin-left: 50px;
+}
+
+/* MatchesPage */
+.matches .row{
+  width: 100%;
+  height: 100%;
+}
+
+.matches .row > .col-md-10{
+  background-color: #DAD2D8;
+}
+
+.matcheshead{
+  height: 240px;
+  margin: 0 auto;
+  mix-blend-mode:soft-light;
+  background:
+  url("../images/header.jpg")no-repeat center -180px;
+
+}
+
+.matchesheadCover{
+  height: 240px;
+  margin: 0 auto;
+  background-color: rgba(134, 0, 0, 0.96);
+}
+
+
+table{
+  text-align: center;
+}
+
+thead>tr{
+
+  background: #2d2a32;
+  color:#e8e8e8;
+}
+
+th{
+    vertical-align: middle!important;
+}
+
+th>span{
+  font-size: 24px;
+}
+
+tbody>tr:nth-child(odd) {
+  background-color: #e8e8e8!important;
+}
+
+tbody>tr:nth-child(even) {
+  background-color: rgba(39,48,66,0.2);
+
+}
+
+.matches h2{
+  color: #c40000;
+  font-family: 'Russo One', sans-serif;
+}
+
+
+/* Photospage */
+.gallery{
+    margin-top: 80px;
+}
+
+.photo{
+  cursor: pointer;
+}
+
+.gallery h2{
+  display: block;
+  color: #c40000;
+  font-family: 'Russo One', sans-serif;
+}
+
+.gallery .row>div{
+  border: 2px solid #e8e8e8;
+  background-size: cover!important;
+  background-repeat: no-repeat!important;
+}
+.gallery .col-md-4{
+
+  padding: 0px;
+
+}
+
+.gallery .col-md-4 .half{
+  height: 200px;
+  background-size: cover!important;
+  background-repeat: no-repeat!important;
+}
+
+.gallery .col-md-4 .half:first-child{
+  border-bottom: 4px solid #e8e8e8;
+}
+
+.gallery>.col-md-8{
+  height: 400px;
+}
+
+.gallery .row2{
+  height:150px;
+}
+
+.gallery .row3{
+  height:300px;
+}
+
+.gallery .row4{
+  height: 250px;
+}
+
+.row4 .col-md-6{
+  padding: 0px;
+  overflow: hidden;
+}
+
+.row4 .four{
+  float: left;
+  width: 66.7%;
+  height: 250px;
+  border-right: 2px solid #e8e8e8;
+  background-size: cover!important;
+}
+
+.row4 .two{
+  width: 33.3%;
+  float: right;
+  height: 250px;
+  border-left: 2px solid #e8e8e8;
+  background-size: cover!important;
+}
+
+.showbox {
+  position: fixed;
+  top:70px;
+  background-color:rgba(232, 232, 232,0.5);
+  width: 100%;
+  height: 85%;
+  display: none;
+}
+
+.showbox button{
+  width: 20px;
+  height: 20px;
+  border: none;
+  position: absolute;
+  top: 0px;
+  right:0px;
+  background-color: #e8e8e8;
+  font-family: arial;
+  font-weight: bold;
+  line-height: 20px;
+  color: #c40000;
+}
+.thephoto{
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
